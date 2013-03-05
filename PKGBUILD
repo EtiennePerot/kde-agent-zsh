@@ -2,14 +2,14 @@
 
 pkgname=kde-agent-zsh
 pkgver=20121218
-pkgrel=1
+pkgrel=2
 pkgdesc="Use ZSH environment variables to determine which SSH/GPG agent to use in KDE applications."
 arch=('any')
 url='https://github.com/EtiennePerot/kde-agent-zsh'
 license=('WTFPL')
 provides=('kde-agent')
 conflicts=('kde-agent')
-depends=('pinentry' 'openssh' 'qt')
+depends=('pinentry' 'openssh' 'qt4')
 source=('gpg-ssh-agent.sh'
         'gpg-ssh-agent-shutdown.sh')
 sha512sums=('518b57aa29ee52a3bd059f63c661edce6864d8a95b9cfec14eb8ee537184492805de06225ab6d64cf225b847e2619fa2e2379d37987e04b99878bf93f96cf427'
